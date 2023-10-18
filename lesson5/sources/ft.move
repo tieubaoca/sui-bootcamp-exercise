@@ -1,8 +1,8 @@
 // Hoàn thiện đoạn code để có thể publish được
-module lesson5::TOKEN {
-    struct TOKEN { }
+module lesson5::FT_TOKEN {
+    struct FT_TOKEN { }
 
-    fun init(witness: TOKEN, ctx: &mut TxContext) {
+    fun init(witness: FT_TOKEN, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency(
 
         );
