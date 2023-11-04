@@ -7,7 +7,6 @@ module lesson6::hero_game {
     use sui::transfer;
     use sui::coin::{Self, Coin};
     use sui::sui::SUI;
-    use sui::clock::{Self, Clock};
 
     const MINT_FEE: u64 = 1_000_000_000;
     const LEVEL_UP_FEE: u64 = 1_000_000_000;
