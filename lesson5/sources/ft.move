@@ -18,9 +18,9 @@ module lesson5::FT_TOKEN {
         let (treasury_cap, metadata) = coin::create_currency<FT_TOKEN>(
             witness, 
             9,
-            b"NEMO",
-            b"Nemo Swap Finance Token",
-            b"The governance token of Nemo Swap Finance",
+            b"FT",
+            b"FT Token",
+            b"Description",
             option::some(url::new_unsafe_from_bytes(b"https://github.com")),
             ctx
         );
